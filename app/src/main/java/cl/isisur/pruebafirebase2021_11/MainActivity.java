@@ -68,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
                 databaseReference.child("Autor").child(autor.getIdAutor()).setValue(autor);
 
                 eTNombre.setText("");
+                eTCategoria.setText("");
+                etCorreo.setText("");
+
             }
         });
 
